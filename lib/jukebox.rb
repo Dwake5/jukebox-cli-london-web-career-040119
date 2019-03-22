@@ -41,7 +41,7 @@ def run(songs)
   help
   loop do
     puts "Please enter a command:"
-    input = gets.chomp
+    input = gets.strip
     case input
     when 'play'
       play(songs)
