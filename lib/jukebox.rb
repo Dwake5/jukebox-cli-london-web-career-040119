@@ -33,6 +33,6 @@ def list(array)
   puts array
 end
 
-def exit
+def exit_jukebox
   puts "Goodbye"
 end
